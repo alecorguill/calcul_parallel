@@ -1,0 +1,61 @@
+Processing bsd license.
+[build_visit invocation arguments] 
+Fortran support for thirdparty libraries disabled.
+------------------------------------------------------------
+./build_visit2_12_3
+Started: mercredi 11 octobre 2017, 15:04:39 (UTC+0200)
+------------------------------------------------------------
+enabling any dependent libraries
+initializing module variables
+initialize module variables for cmake
+initialize module variables for python
+initialize module variables for qt
+initalizing qt vars
+initialize module variables for qwt
+initialize module variables for vtk
+initalizing vtk vars
+During the build process this script will build Qt and confirm that you accept Trolltech's license for the Qt Open Source Edition. Please respond "yes" to accept (in advance) either the Lesser GNU General Public License (LGPL) version 2.1 or the GNU General Public License (GPL) version 3. Visit http://www.qt.io/qt-licensing-terms to view these licenses.
+Checking for files . . .
+Checking for cmake-3.0.2
+Downloading cmake-3.0.2.tar.gz . . .
+./build_visit2_12_3: ligne 2245: svn : commande introuvable
+Anonymous SVN download attempt failed: http://visit.ilight.com/svn/visit/tags/2.12.3/third_party/cmake-3.0.2.tar.gz
+Download succeeded: http://visit.ilight.com/svn/visit/tags/2.12.3/third_party/cmake-3.0.2.tar.gz
+Checking for python-2.7.11
+Downloading Python-2.7.11.tgz . . .
+./build_visit2_12_3: ligne 2245: svn : commande introuvable
+Anonymous SVN download attempt failed: http://visit.ilight.com/svn/visit/tags/2.12.3/third_party/Python-2.7.11.tgz
+Download succeeded: http://visit.ilight.com/svn/visit/tags/2.12.3/third_party/Python-2.7.11.tgz
+Checking for qt-4.8.3
+Downloading qt-everywhere-opensource-src-4.8.3.tar.gz . . .
+./build_visit2_12_3: ligne 2245: svn : commande introuvable
+Anonymous SVN download attempt failed: http://visit.ilight.com/svn/visit/tags/2.12.3/third_party/qt-everywhere-opensource-src-4.8.3.tar.gz
+Processing bsd license.
+Processing bsd license.
+[build_visit invocation arguments] 
+Fortran support for thirdparty libraries disabled.
+------------------------------------------------------------
+./build_visit2_12_3
+Started: mercredi 11 octobre 2017, 15:07:18 (UTC+0200)
+------------------------------------------------------------
+enabling any dependent libraries
+initializing module variables
+initialize module variables for cmake
+initialize module variables for python
+initialize module variables for qt
+initalizing qt vars
+initialize module variables for qwt
+initialize module variables for vtk
+initalizing vtk vars
+During the build process this script will build Qt and confirm that you accept Trolltech's license for the Qt Open Source Edition. Please respond "yes" to accept (in advance) either the Lesser GNU General Public License (LGPL) version 2.1 or the GNU General Public License (GPL) version 3. Visit http://www.qt.io/qt-licensing-terms to view these licenses.
+Checking for files . . .
+Checking for cmake-3.0.2
+Checking for python-2.7.11
+Checking for qt-4.8.3
+Checking for qwt-6.1.2
+Downloading qwt-6.1.2.tar.bz2 . . .
+./build_visit2_12_3: ligne 2245: svn : commande introuvable
+Anonymous SVN download attempt failed: http://visit.ilight.com/svn/visit/tags/2.12.3/third_party/qwt-6.1.2.tar.bz2
+Download succeeded: http://visit.ilight.com/svn/visit/tags/2.12.3/third_party/qwt-6.1.2.tar.bz2
+Checking for vtk-6.1.0
+Downloading VTK-6.1.0.tar.gz . . .
