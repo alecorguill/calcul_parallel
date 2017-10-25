@@ -23,7 +23,7 @@ typedef struct
 /* The main program reads in a mesh from a file followed by a
 list of which elements should be assigned to whixh subdomain */
 
-main(int argc, char** argv)
+int main(int argc, char** argv)
 {
   FILE *InFile, *OutFile;
   int Nodes, Elements, I, J, K, V, *NodeCounter, *Common;

@@ -65,9 +65,9 @@ program postprocess
        ! endif
         do i=1,nrtri
            !for metis
-           read(partitionunit,*) itri(1,i) !read the partition number of the element
+           !read(partitionunit,*) itri(1,i) !read the partition number of the element
            !for scotch
-           !read(partitionunit,*) verif,itri(1,i) !read the partition number of the element
+           read(partitionunit,*) verif,itri(1,i) !read the partition number of the element
         enddo
 
         !Fast way to visualize the partition, not good for Boundaries between 2 partitions

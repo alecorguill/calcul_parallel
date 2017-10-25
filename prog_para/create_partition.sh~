@@ -1,0 +1,18 @@
+#!/bin/bash
+
+NB_PARTITIONS=4
+
+mkdir metis scotch
+for i in `seq 2 $NB_PARTITIONS`;
+do
+    mkdir metis/partition$i
+    mkdir scotch/partition$i
+done 
+
+# METIS 
+cd TP_METIS_SCOTCH
+for i in `seq 2 $NB_PARTITIONS`;
+do
+    metis-4.0.3/partdmesh dualformetis.dat $i
+    
+done 

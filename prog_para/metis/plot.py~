@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+
+nb_procs, times = [], []
+with open("time.plt") as fp:
+    for line in fp:
+        tab = line.split(" ")
+        nb_procs.append(tab[0])
+        times.append(tab[1])
+
+times = [val/times[0] for val in times]
